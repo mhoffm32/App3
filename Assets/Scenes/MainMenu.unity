@@ -308,7 +308,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac5a309cf8055402883c74db73ff627c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: 
+  level: Level_1
   leaderboard: Leaderboard
 --- !u!1 &417818285
 GameObject:
@@ -876,7 +876,7 @@ MonoBehaviour:
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 21300000, guid: bcef677452c0d4e278089a81d55fa986, type: 3}
-    m_SelectedSprite: {fileID: 21300000, guid: bcef677452c0d4e278089a81d55fa986, type: 3}
+    m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
@@ -1009,7 +1009,7 @@ MonoBehaviour:
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 21300000, guid: bcef677452c0d4e278089a81d55fa986, type: 3}
-    m_SelectedSprite: {fileID: 21300000, guid: bcef677452c0d4e278089a81d55fa986, type: 3}
+    m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
@@ -1142,7 +1142,7 @@ MonoBehaviour:
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 21300000, guid: bcef677452c0d4e278089a81d55fa986, type: 3}
-    m_SelectedSprite: {fileID: 21300000, guid: bcef677452c0d4e278089a81d55fa986, type: 3}
+    m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
