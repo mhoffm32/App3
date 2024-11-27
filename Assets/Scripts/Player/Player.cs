@@ -19,12 +19,8 @@ public class Player : MonoBehaviour
         playerName = PlayerPrefs.GetString("PlayerName", "Default Player");
         playerNo = PlayerPrefs.GetInt("PlayerNo", 1);
         
-        // animator.SetBool("isPlayer1", playerNo == 1);
-        // animator.SetBool("isPlayer2", playerNo == 2);
-        
         animator.SetBool("isPlayer1", true);
         animator.SetBool("isPlayer2", false);
-        
     }
 
     void Update()
