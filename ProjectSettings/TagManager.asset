@@ -47,6 +47,12 @@ TagManager:
   - name: WalkInFront
     uniqueID: 1031525181
     locked: 0
+  - name: BackgroundTrees
+    uniqueID: 4045718599
+    locked: 0
+  - name: ForegroundTrees
+    uniqueID: 2084974401
+    locked: 0
   - name: Collision
     uniqueID: 4062761417
     locked: 0
