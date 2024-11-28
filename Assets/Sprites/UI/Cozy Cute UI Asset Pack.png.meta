@@ -1,0 +1,928 @@
+fileFormatVersion: 2
+guid: bb72a06f34cf9417bb97ae626ffdf082
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cozy Cute UI Asset Pack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 218
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d79a54c828a4d28b22c605bb2ccfef
+      internalID: 1008123400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Cute UI Asset Pack_1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 218
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fbbedd46fbe047339965184d7793f12
+      internalID: -822204119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Cute UI Asset Pack_2
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 160
+        width: 78
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b9f9c0503706466c8e642b7b3dae62c
+      internalID: -309123412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Cute UI Asset Pack_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e5bac8b6aee4aba9594d8e1d5bd045
+      internalID: 716434400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Cute UI Asset Pack_4
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 208
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28bcfec76ca704fc29462dd6c56a60b1
+      internalID: -260801926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Cute UI Asset Pack_5
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 194
+        width: 5
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a93d749371149b7bba40713a15de87
+      internalID: -195037704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Cute UI Asset Pack_6
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 194
+        width: 5
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7ae005b26e84f499cdaf1f76e4723e
+      internalID: 471207252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Cute UI Asset Pack_7
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 178
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8038ed72be0d545ae88561469db037f0
+      internalID: 1737622476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Cute UI Asset Pack_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 160
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f8eb065285e44e2aa4c427a931a644
+      internalID: -1744164226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Cute UI Asset Pack_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c25593a6ef6b64c9d8e118beb271b9ae
+      internalID: 96868544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Cute UI Asset Pack_10
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 128
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b74ca9d46085a405bbc24e8227edebaa
+      internalID: -1060498508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Cute UI Asset Pack_11
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 128
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27eb02860a5a5455f82aca93f841e8b1
+      internalID: 1326112774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Cute UI Asset Pack_12
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 128
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6040bf32c9c4ee09ff62e0a5f96cd8
+      internalID: 1534586130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Cute UI Asset Pack_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 114
+        width: 96
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc593ad6a841148468588467653260b2
+      internalID: -471206693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Cute UI Asset Pack_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 98
+        width: 96
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85e22e73383da426b9453f5d2f905fc1
+      internalID: -1013270106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Cute UI Asset Pack_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 82
+        width: 96
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5dc44c00b85474293066300e41e746
+      internalID: -1791698427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Cute UI Asset Pack_16
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 65
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89a192bc5678e4ab49e87cb8c44d8e37
+      internalID: -1595799675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Cute UI Asset Pack_17
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 65
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bed48fb002fb34301b6ed04e253eeab6
+      internalID: 437705944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Cute UI Asset Pack_18
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 67
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ce56c452d544c42a249f6a6f456318
+      internalID: 965155930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Cute UI Asset Pack_19
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 67
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebbe717f43dcb4485917303ccbfb2a9c
+      internalID: 1602848207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Cute UI Asset Pack_20
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 64
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f838e42adb7b482697e8b8e3ab56601
+      internalID: 1519775106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Cute UI Asset Pack_21
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 66
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b8f1b4563d0c432caa26347192e4795
+      internalID: -165600667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Cute UI Asset Pack_22
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 49
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe4156f585bf646c7a861e56c298b12a
+      internalID: -1001328492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Cute UI Asset Pack_23
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 49
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185922819991047d883ec3d411194866
+      internalID: -627101299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Cute UI Asset Pack_24
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 50
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 963e52e3ff4ce4500ae49688d947a1f6
+      internalID: 2111670535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Cute UI Asset Pack_25
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 50
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc456be7c214b496db3ad7ca1559b864
+      internalID: -1173255048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Cute UI Asset Pack_26
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa8e75665520b42a0bed89ec342d66ad
+      internalID: -573010500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Cute UI Asset Pack_27
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 50
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88f3fad4635544c3a9e5135c3529f98f
+      internalID: -686358145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Cute UI Asset Pack_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9969541ee97ef40299459d888c10c362
+      internalID: -348362362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Cute UI Asset Pack_29
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 33
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f02995c4b2ad48e1a2c9652f23978f9
+      internalID: 315617551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Cute UI Asset Pack_30
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 33
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5265bd081fc3d49d882824bc5a3a6e86
+      internalID: -1481258659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Cute UI Asset Pack_31
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 17
+        width: 9
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f420ba1e7f5ae431c8457cb4e9c9d85b
+      internalID: -2093438506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Cute UI Asset Pack_32
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 16
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a199bf5c64e24ec3b1fcd65d1a1af2a
+      internalID: 635314184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Cute UI Asset Pack_33
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 17
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f02e3865a5454a49a2764c2ea31d1c5
+      internalID: -547755917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Cute UI Asset Pack_34
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 0
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d2cf329edc4840659963ef94b362107
+      internalID: -1192690641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Cute UI Asset Pack_35
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 5
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f66c8681cce84f6e90136020418b966
+      internalID: 1072004586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cozy Cute UI Asset Pack_36
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d48ebc7bef1b445b795aaaf0a14dcc26
+      internalID: -1659260778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Cozy Cute UI Asset Pack_0: 1008123400
+      Cozy Cute UI Asset Pack_1: -822204119
+      Cozy Cute UI Asset Pack_10: -1060498508
+      Cozy Cute UI Asset Pack_11: 1326112774
+      Cozy Cute UI Asset Pack_12: 1534586130
+      Cozy Cute UI Asset Pack_13: -471206693
+      Cozy Cute UI Asset Pack_14: -1013270106
+      Cozy Cute UI Asset Pack_15: -1791698427
+      Cozy Cute UI Asset Pack_16: -1595799675
+      Cozy Cute UI Asset Pack_17: 437705944
+      Cozy Cute UI Asset Pack_18: 965155930
+      Cozy Cute UI Asset Pack_19: 1602848207
+      Cozy Cute UI Asset Pack_2: -309123412
+      Cozy Cute UI Asset Pack_20: 1519775106
+      Cozy Cute UI Asset Pack_21: -165600667
+      Cozy Cute UI Asset Pack_22: -1001328492
+      Cozy Cute UI Asset Pack_23: -627101299
+      Cozy Cute UI Asset Pack_24: 2111670535
+      Cozy Cute UI Asset Pack_25: -1173255048
+      Cozy Cute UI Asset Pack_26: -573010500
+      Cozy Cute UI Asset Pack_27: -686358145
+      Cozy Cute UI Asset Pack_28: -348362362
+      Cozy Cute UI Asset Pack_29: 315617551
+      Cozy Cute UI Asset Pack_3: 716434400
+      Cozy Cute UI Asset Pack_30: -1481258659
+      Cozy Cute UI Asset Pack_31: -2093438506
+      Cozy Cute UI Asset Pack_32: 635314184
+      Cozy Cute UI Asset Pack_33: -547755917
+      Cozy Cute UI Asset Pack_34: -1192690641
+      Cozy Cute UI Asset Pack_35: 1072004586
+      Cozy Cute UI Asset Pack_36: -1659260778
+      Cozy Cute UI Asset Pack_4: -260801926
+      Cozy Cute UI Asset Pack_5: -195037704
+      Cozy Cute UI Asset Pack_6: 471207252
+      Cozy Cute UI Asset Pack_7: 1737622476
+      Cozy Cute UI Asset Pack_8: -1744164226
+      Cozy Cute UI Asset Pack_9: 96868544
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
