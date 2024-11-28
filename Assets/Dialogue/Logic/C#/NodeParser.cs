@@ -85,6 +85,9 @@ public class NodeParser : MonoBehaviour {
 
             // Create new buttons based on the current choices
             for (int i = 0; i < choiceNode.responses.Length; i++) {
+
+                Debug.Log("Creating button for response " + choiceNode.responses[i]);
+
                 string response = choiceNode.responses[i]; // Get the actual response string
                 NodePort p = choiceNode.Outputs.ElementAt(i+1); // Get corresponding output port for response
 
