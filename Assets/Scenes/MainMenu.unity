@@ -347,7 +347,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.9433962, g: 0.7075472, b: 0.9195125, a: 0}
+  m_BackGroundColor: {r: 1, g: 0.57254905, b: 0.827451, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -717,11 +717,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 968332186}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3923dd5543d7400e833cf36ab9a8085, type: 3}
+  m_Script: {fileID: 11500000, guid: d372a452a2cc6467792b11a26ca079a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bounceHeight: 5
-  bounceSpeed: 8
+  jitterAmount: 2
+  jitterInterval: 0.4
 --- !u!1 &1088651532
 GameObject:
   m_ObjectHideFlags: 0
@@ -924,7 +924,7 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
+    m_HighlightedSprite: {fileID: 21300000, guid: bcef677452c0d4e278089a81d55fa986, type: 3}
     m_PressedSprite: {fileID: 21300000, guid: bcef677452c0d4e278089a81d55fa986, type: 3}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
@@ -1057,7 +1057,7 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
+    m_HighlightedSprite: {fileID: 21300000, guid: bcef677452c0d4e278089a81d55fa986, type: 3}
     m_PressedSprite: {fileID: 21300000, guid: bcef677452c0d4e278089a81d55fa986, type: 3}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
@@ -1190,7 +1190,7 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
+    m_HighlightedSprite: {fileID: 21300000, guid: bcef677452c0d4e278089a81d55fa986, type: 3}
     m_PressedSprite: {fileID: 21300000, guid: bcef677452c0d4e278089a81d55fa986, type: 3}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
