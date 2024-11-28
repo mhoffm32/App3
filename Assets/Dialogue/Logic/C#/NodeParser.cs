@@ -15,6 +15,8 @@ public class NodeParser : MonoBehaviour {
     public GameObject choiceButtonPrefab; // Reference to the button prefab
     public Transform choiceButtonsPanel;  // Panel that holds the choice buttons
 
+    private bool isInteracting = false;
+
     private void Start() {
         foreach (BaseNode b in graph.nodes) {
             if (b.GetString() == "Start") {
@@ -22,6 +24,11 @@ public class NodeParser : MonoBehaviour {
                 break;
             }
         }
+    }
+
+    public void Interact() {
+        if (isInteracting) return; // Prevent multiple interactions
+        isInteracting = true;
         _parser = StartCoroutine(ParseNode());
     }
 
@@ -71,6 +78,7 @@ public class NodeParser : MonoBehaviour {
         }
         if (dataParts[0] == "End") {
             Debug.Log("End of dialogue");
+            isInteracting = false; // Allow future interactions
         }
 
         // Ensure buttons are displayed one on top of the other
