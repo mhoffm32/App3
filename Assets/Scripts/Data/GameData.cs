@@ -15,7 +15,7 @@ public class GameData
         public string playerName;
         public float beatTime;
     }
-
+    
     public List<PlayerRecord> leaderboard = new List<PlayerRecord>();
 
     // add player record to leaderboard
