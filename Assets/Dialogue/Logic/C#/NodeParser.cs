@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using XNode;
@@ -15,6 +14,9 @@ public class NodeParser : MonoBehaviour {
     public GameObject choiceButtonPrefab; // Reference to the button prefab
     public Transform choiceButtonsPanel;  // Panel that holds the choice buttons
 
+    public GameObject dialogueBox;
+    public GameObject spaceNext;
+
     private bool isInteracting = false;
 
     private void Start() {
@@ -29,10 +31,23 @@ public class NodeParser : MonoBehaviour {
     public void Interact() {
         if (isInteracting) return; // Prevent multiple interactions
         isInteracting = true;
+
+        // Reset graph to "Start" node
+        foreach (BaseNode b in graph.nodes) {
+            if (b.GetString() == "Start") {
+                graph.current = b;
+                break;
+            }
+        }
+
+        Debug.Log("Interacting with " + gameObject.name);
+        dialogueBox.SetActive(true);
         _parser = StartCoroutine(ParseNode());
     }
 
+
     IEnumerator ParseNode() {
+
         BaseNode b = graph.current;
         string data = b.GetString();
         string[] dataParts = data.Split('/');
@@ -41,6 +56,7 @@ public class NodeParser : MonoBehaviour {
             NextNode("exit");
         } 
         if (dataParts[0] == "DialogueNode") {
+            spaceNext.SetActive(true);
             foreach (Transform child in choiceButtonsPanel) {
                 Destroy(child.gameObject);
             }
@@ -49,12 +65,14 @@ public class NodeParser : MonoBehaviour {
             speaker.text = dataParts[1];
             dialogue.text = dataParts[2];
             speakerImage.sprite = b.GetSprite();
-            yield return new WaitUntil(() => Input.GetMouseButtonDown(0));
-            yield return new WaitUntil(() => Input.GetMouseButtonUp(0));
+            yield return new WaitUntil(() => Input.GetKeyDown("space"));
+            yield return new WaitUntil(() => Input.GetKeyUp("space"));
             NextNode("exit");
         }
         if (dataParts[0] == "ChoiceNode") {
             // Choice processing
+            spaceNext.SetActive(false);
+
             ChoiceNode choiceNode = b as ChoiceNode; // Cast to ChoiceNode
             speaker.text = choiceNode.speakerName;
             dialogue.text = choiceNode.dialogueLine;
@@ -78,6 +96,8 @@ public class NodeParser : MonoBehaviour {
         }
         if (dataParts[0] == "End") {
             Debug.Log("End of dialogue");
+            spaceNext.SetActive(false);
+            dialogueBox.SetActive(false);
             isInteracting = false; // Allow future interactions
         }
 
@@ -90,6 +110,7 @@ public class NodeParser : MonoBehaviour {
             StopCoroutine(_parser);
             _parser = null;
         }
+        isInteracting = false;
 
         foreach (NodePort p in graph.current.Ports) {
             // Find port with this name
