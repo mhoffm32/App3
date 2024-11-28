@@ -87351,7 +87351,7 @@ GameObject:
   m_Component:
   - component: {fileID: 683105057}
   - component: {fileID: 683105058}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: InteractionRadius
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87551,7 +87551,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 815399471}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Signs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87585,7 +87585,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 837996951}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: NPC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -124179,7 +124179,7 @@ GameObject:
   - component: {fileID: 1188998482}
   - component: {fileID: 1188998481}
   - component: {fileID: 1188998480}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: WestSign
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -144310,7 +144310,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1255054632}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Interactable
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -146994,7 +146994,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1411551471}
   - component: {fileID: 1411551472}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: InteractionRadius
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -147064,7 +147064,7 @@ GameObject:
   - component: {fileID: 1897553244}
   - component: {fileID: 1897553243}
   - component: {fileID: 1897553246}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EastSign
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -147309,6 +147309,7 @@ GameObject:
   - component: {fileID: 1956189758}
   - component: {fileID: 1956189757}
   - component: {fileID: 1956189756}
+  - component: {fileID: 1956189760}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -147455,6 +147456,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1956189760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1956189755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6e47ed32859f463abbee83ef830af94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionRange: 2
+  interactableLayer:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!1 &1963590393
 GameObject:
   m_ObjectHideFlags: 0
@@ -147467,7 +147484,7 @@ GameObject:
   - component: {fileID: 1963590397}
   - component: {fileID: 1963590396}
   - component: {fileID: 1963590395}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: NorthSign
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -147726,7 +147743,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2026315989}
   - component: {fileID: 2026315990}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: InteractionRadius
   m_TagString: Untagged
   m_Icon: {fileID: 0}
