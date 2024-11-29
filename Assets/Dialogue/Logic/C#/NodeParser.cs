@@ -4,6 +4,7 @@ using UnityEngine.UI;
 using XNode;
 using TMPro;
 using System.Linq;
+using UnityEngine.SceneManagement;
 
 public class NodeParser : MonoBehaviour {
     public DialogueGraph graph;
@@ -16,6 +17,7 @@ public class NodeParser : MonoBehaviour {
 
     public GameObject dialogueBox;
     public GameObject spaceNext;
+    private string itemGainedMessage = "You gained a powerful item!"; // Message for WinNode
 
     private bool isInteracting = false;
 
@@ -96,6 +98,20 @@ public class NodeParser : MonoBehaviour {
                 choiceButton.GetComponentInChildren<TMP_Text>().text = response; // Set button text to response
                 choiceButton.GetComponent<Button>().onClick.AddListener(() => NextNode(p.fieldName)); // Add listener to handle response
             }
+        }
+        if (dataParts[0] == "DeathNode") {
+            Debug.Log("Player died. Game Over.");
+            dialogueBox.SetActive(false);
+            SceneManager.LoadScene("GameOver");
+        }
+        if (dataParts[0] == "WinNode") {
+            Debug.Log("Player wins an item.");
+            dialogue.text = itemGainedMessage;
+            spaceNext.SetActive(false);
+            // Add logic to give the player an item here
+            yield return new WaitForSeconds(2f); // Show message briefly
+            dialogueBox.SetActive(false);
+            isInteracting = false; // Allow future interactions        
         }
         if (dataParts[0] == "End") {
             Debug.Log("End of dialogue");
