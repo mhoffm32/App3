@@ -18,7 +18,7 @@ public class WinMenu : MonoBehaviour
 
     public void Update() {
         if (Input.GetKeyDown(KeyCode.Space)) {
-            //SubmitScore();
+            SubmitScore();
             SceneManager.LoadScene("MainMenu");
         }
     }
@@ -33,14 +33,13 @@ public class WinMenu : MonoBehaviour
     // method to submit the player's score and name
     public void SubmitScore()
     {
-        // uncomment once player name is implemented into GameData script
-        //string playerName = GameData.playerName;
+        string playerName = GameData.PlayerName;
         
         // calculate score by simply rounding timer to 2 decimal places
         float score = (float)Math.Round(GameData.timer/60, 2);
 
         // submit to leaderboard
-        SubmitToLeaderboard(GameData.PlayerName, score);
+        SubmitToLeaderboard(playerName, score);
     }
 
     // method to take submitted score and name and put onto leaderboard
