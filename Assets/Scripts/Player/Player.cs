@@ -10,6 +10,21 @@ public class Player : MonoBehaviour
     private Collider2D bodyCollider;
     public static int x_direction = 1;
 
+    public GameObject cottageItem;
+
+    public bool hasCottageItem = false;
+    public bool allEnemiesKilled = false;
+    public bool hasMazeItem = false;
+
+    public bool eastQuestReceived = false;
+    public bool eastQuestComplete = false;
+    public bool northQuestComplete = false;
+    public bool westQuestComplete = false;
+    
+    public GameObject eastBoulder;
+    public GameObject northBoulder;
+    public GameObject westBoulder;
+
     
     void Start()
     {
@@ -27,6 +42,23 @@ public class Player : MonoBehaviour
          {
              MovePlayer();
          }
+
+         if (hasCottageItem == true) {
+            Debug.Log("You have the cottage item!");
+            cottageItem.SetActive(true);
+         }
+         if (eastQuestReceived  == true) {
+            Debug.Log("You have received the first quest!");
+            eastBoulder.SetActive(false);
+         }
+         if (eastQuestComplete == true) {
+            Debug.Log("You have completed the east quest!");
+            northBoulder.SetActive(false);
+         }
+        if (northQuestComplete == true) {
+            Debug.Log("You have completed the north quest!");
+            westBoulder.SetActive(false);
+        }
     }
     
     private void MovePlayer()
