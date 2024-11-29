@@ -133,7 +133,11 @@ public class NodeParser : MonoBehaviour {
             yield return new WaitForSeconds(2f); // Show message briefly
             dialogueBox.SetActive(false);
             isInteracting = false; // Allow future interactions  
-            Destroy(gameObject);      
+            if (gameObject.name == "Npc6") { 
+                gameObject.layer = LayerMask.NameToLayer("NoLongerInteractable");
+            } else {
+                Destroy(gameObject);
+            }
         }
         if (dataParts[0] == "WinGameNode") {
             Debug.Log("Player wins the game.");
