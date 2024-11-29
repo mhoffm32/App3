@@ -7,6 +7,7 @@ public class GameController : MonoBehaviour
 {
     public static bool isGameOver = false;
     public static bool isWon = false;
+
     public bool isPaused = false;
     public float timer = 0f;
 
