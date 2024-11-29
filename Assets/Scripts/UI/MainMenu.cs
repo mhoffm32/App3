@@ -7,10 +7,13 @@ public class MainMenu : MonoBehaviour
 {
     public string level;
     public string leaderboard;
+    public string createPlayer;
 
     public void StartGame() {
-        SceneManager.LoadScene(level);
+        //SceneManager.LoadScene(level);
+        SceneManager.LoadScene(createPlayer);
     }
+    
 
     public void Leaderboard() {
         SceneManager.LoadScene(leaderboard);

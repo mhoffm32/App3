@@ -9,6 +9,7 @@ using UnityEngine;
 public class GameData
 {
     public static float timer;
+    public static string PlayerName;
 
     [System.Serializable]
     public class PlayerRecord {
