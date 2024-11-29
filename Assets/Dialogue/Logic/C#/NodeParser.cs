@@ -45,6 +45,18 @@ public class NodeParser : MonoBehaviour {
 
         if (gameObject.name == "Npc3") {
             player.eastQuestReceived = true;
+        } 
+        
+        if (gameObject.name == "Npc3" && player.hasCottageItem == true) {
+            player.eastQuestComplete = true;
+        }
+        
+        if (gameObject.name == "Npc3" && player.allEnemiesKilled == true) {
+            player.northQuestComplete = true;
+        } 
+        
+        if (gameObject.name == "Npc3" && player.hasMazeItem == true) {
+            player.westQuestComplete = true;
         }
 
         Debug.Log("Interacting with " + gameObject.name);
@@ -122,6 +134,14 @@ public class NodeParser : MonoBehaviour {
             dialogueBox.SetActive(false);
             isInteracting = false; // Allow future interactions  
             Destroy(gameObject);      
+        }
+        if (dataParts[0] == "WinGameNode") {
+            Debug.Log("Player wins the game.");
+            dialogue.text = "Congratulations! You have saved the village!";
+            spaceNext.SetActive(false);
+            yield return new WaitForSeconds(2f); // Show message briefly
+            dialogueBox.SetActive(false);
+            SceneManager.LoadScene("Win");
         }
         if (dataParts[0] == "End") {
             Debug.Log("End of dialogue");

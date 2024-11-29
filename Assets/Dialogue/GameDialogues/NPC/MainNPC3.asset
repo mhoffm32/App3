@@ -45,9 +45,9 @@ MonoBehaviour:
       _dynamic: 0
   entry: 0
   exit: 0
-  speakerName: Mary
+  speakerName: Wizard
   dialogueLine: Goodbye, Traveller. Good luck and try not to get lost in the maze!
-  sprite: {fileID: 0}
+  sprite: {fileID: 310205709, guid: f8708591df7074356a53e60060ae7b30, type: 3}
 --- !u!114 &-3114009709887093331
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -93,10 +93,10 @@ MonoBehaviour:
       _dynamic: 0
   entry: 0
   exit: 0
-  speakerName: Mary
+  speakerName: Wizard
   dialogueLine: You have returned! I hope unharmed. Thank you so much, you have been
     a great help to our village.
-  sprite: {fileID: 0}
+  sprite: {fileID: 310205709, guid: f8708591df7074356a53e60060ae7b30, type: 3}
 --- !u!114 &-1800659904111599380
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -214,9 +214,9 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 1
   entry: 0
-  speakerName: Mary
+  speakerName: Wizard
   dialogueLine: Do you have any questions, my friend?
-  sprite: {fileID: 0}
+  sprite: {fileID: 310205709, guid: f8708591df7074356a53e60060ae7b30, type: 3}
   responses:
   - Where did you say the maze was again?
   - What does the item look like?
@@ -289,11 +289,11 @@ MonoBehaviour:
       _dynamic: 0
   entry: 0
   exit: 0
-  speakerName: Mary
+  speakerName: Wizard
   dialogueLine: It is in the Western Forest. Travel west out of the village and head
     North. You will come to a clearing in the woods. Follow the sign to reach the
     Western Forest!
-  sprite: {fileID: 0}
+  sprite: {fileID: 310205709, guid: f8708591df7074356a53e60060ae7b30, type: 3}
 --- !u!114 &1099296534935218623
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -370,9 +370,9 @@ MonoBehaviour:
       _dynamic: 0
   entry: 0
   exit: 0
-  speakerName: Mary
+  speakerName: Wizard
   dialogueLine: Describe the special item
-  sprite: {fileID: 0}
+  sprite: {fileID: 310205709, guid: f8708591df7074356a53e60060ae7b30, type: 3}
 --- !u!114 &5797614181251537188
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -418,10 +418,10 @@ MonoBehaviour:
       _dynamic: 0
   entry: 0
   exit: 0
-  speakerName: Mary
+  speakerName: Wizard
   dialogueLine: Legend says there is a very special item which can help us villagers
     greatly. Please find it and return to me quickly!
-  sprite: {fileID: 0}
+  sprite: {fileID: 310205709, guid: f8708591df7074356a53e60060ae7b30, type: 3}
 --- !u!114 &8577680300591086711
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -467,8 +467,8 @@ MonoBehaviour:
       _dynamic: 0
   entry: 0
   exit: 0
-  speakerName: Mary
+  speakerName: Wizard
   dialogueLine: I have one last task for you to complete. Please, travel to the Western
     forest. There is a great maze that none of us have been able to complete in all
     our time here.
-  sprite: {fileID: 0}
+  sprite: {fileID: 310205709, guid: f8708591df7074356a53e60060ae7b30, type: 3}
