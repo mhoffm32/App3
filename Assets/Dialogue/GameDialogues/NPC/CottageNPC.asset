@@ -1,36 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-6107971761183017995
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3a2e1226606b49129f1a02d916dd4e1, type: 3}
-  m_Name: Win
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 1032, y: -232}
-  ports:
-    keys:
-    - entry
-    values:
-    - _fieldName: entry
-      _node: {fileID: -6107971761183017995}
-      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: exit
-        node: {fileID: -4762119811725694804}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  entry: 0
 --- !u!114 &-4762119811725694804
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68,7 +37,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: entry
-        node: {fileID: -6107971761183017995}
+        node: {fileID: 8123838856173402958}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -264,7 +233,7 @@ MonoBehaviour:
   - {fileID: -692266805659902156}
   - {fileID: -3764360369065990452}
   - {fileID: -4762119811725694804}
-  - {fileID: -6107971761183017995}
+  - {fileID: 8123838856173402958}
   current: {fileID: 0}
 --- !u!114 &4617140768860117794
 MonoBehaviour:
@@ -417,3 +386,36 @@ MonoBehaviour:
   dialogueLine: However... answer it incorrectly and you will be met with a terrible
     fate...
   sprite: {fileID: 0}
+--- !u!114 &8123838856173402958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3a2e1226606b49129f1a02d916dd4e1, type: 3}
+  m_Name: Gain Item
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1048, y: -232}
+  ports:
+    keys:
+    - entry
+    values:
+    - _fieldName: entry
+      _node: {fileID: 8123838856173402958}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: -4762119811725694804}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  speakerName: Special Item
+  sprite: {fileID: 845852595, guid: cb9f9de86b89144b8ba7ba7dc47c89d2, type: 3}
+  entry: 0

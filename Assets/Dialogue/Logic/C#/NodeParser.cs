@@ -15,9 +15,10 @@ public class NodeParser : MonoBehaviour {
     public GameObject choiceButtonPrefab; // Reference to the button prefab
     public Transform choiceButtonsPanel;  // Panel that holds the choice buttons
 
+    public Player player;
+
     public GameObject dialogueBox;
     public GameObject spaceNext;
-    private string itemGainedMessage = "You gained a powerful item!"; // Message for WinNode
 
     private bool isInteracting = false;
 
@@ -40,6 +41,10 @@ public class NodeParser : MonoBehaviour {
                 graph.current = b;
                 break;
             }
+        }
+
+        if (gameObject.name == "Npc3") {
+            player.eastQuestReceived = true;
         }
 
         Debug.Log("Interacting with " + gameObject.name);
@@ -104,14 +109,19 @@ public class NodeParser : MonoBehaviour {
             dialogueBox.SetActive(false);
             SceneManager.LoadScene("GameOver");
         }
-        if (dataParts[0] == "WinNode") {
-            Debug.Log("Player wins an item.");
-            dialogue.text = itemGainedMessage;
+        if (dataParts[0] == "GainItemNode") {
+            Debug.Log("Player gains an item.");
+            dialogue.text = "You gained a powerful item!";
             spaceNext.SetActive(false);
-            // Add logic to give the player an item here
+            if (player.hasCottageItem == true) {
+                player.hasMazeItem = true;
+            } else {
+                player.hasCottageItem = true;
+            }            // Add logic to give the player an item here
             yield return new WaitForSeconds(2f); // Show message briefly
             dialogueBox.SetActive(false);
-            isInteracting = false; // Allow future interactions        
+            isInteracting = false; // Allow future interactions  
+            Destroy(gameObject);      
         }
         if (dataParts[0] == "End") {
             Debug.Log("End of dialogue");
