@@ -17,9 +17,13 @@ public class Leaderboard : MonoBehaviour
     // to load leaderboard data
     void LoadLeaderboard()
     {
-        // load leaderboard data from GameData
         GameData gameData = GameData.LoadData();
 
+        // Debugging: Log leaderboard
+        foreach (var record in gameData.leaderboard)
+        {
+            Debug.Log($"Player: {record.playerName}, Time: {record.beatTime}");
+        }
         // ensure the leaderboard is sorted by score (ascending order)
         gameData.leaderboard.Sort((a, b) => a.beatTime.CompareTo(b.beatTime));
 

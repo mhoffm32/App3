@@ -19,7 +19,6 @@ public class NodeParser : MonoBehaviour {
 
     public GameObject dialogueBox;
     public GameObject spaceNext;
-
     private bool isInteracting = false;
 
     private void Start() {
@@ -118,8 +117,9 @@ public class NodeParser : MonoBehaviour {
         }
         if (dataParts[0] == "DeathNode") {
             Debug.Log("Player died. Game Over.");
+            spaceNext.SetActive(false);
             dialogueBox.SetActive(false);
-            SceneManager.LoadScene("GameOver");
+            GameController.isGameOver = true;
         }
         if (dataParts[0] == "GainItemNode") {
             Debug.Log("Player gains an item.");
@@ -145,7 +145,8 @@ public class NodeParser : MonoBehaviour {
             spaceNext.SetActive(false);
             yield return new WaitForSeconds(2f); // Show message briefly
             dialogueBox.SetActive(false);
-            SceneManager.LoadScene("Win");
+            GameController.isWon = true;
+
         }
         if (dataParts[0] == "End") {
             Debug.Log("End of dialogue");
