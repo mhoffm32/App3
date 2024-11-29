@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameController : MonoBehaviour
 {
-    public bool isGameOver = false;
+    public static bool isGameOver = false;
     public bool isPaused = false;
     public float timer = 0f;
 
