@@ -45,7 +45,7 @@ MonoBehaviour:
       _dynamic: 0
   entry: 0
   exit: 0
-  speakerName: Cottage Resident
+  speakerName: Old Lady
   dialogueLine: You got it right! Here, take this.
   sprite: {fileID: 0}
 --- !u!114 &-3764360369065990452
@@ -124,8 +124,8 @@ MonoBehaviour:
       _dynamic: 0
   entry: 0
   exit: 0
-  speakerName: Cottage Resident
-  dialogueLine: Hello Traveller, answer my riddle correctly and I will give you a
+  speakerName: Old Lady
+  dialogueLine: Hello traveller, answer my riddle correctly and I will give you a
     special item!
   sprite: {fileID: 0}
 --- !u!114 &-692266805659902156
@@ -179,7 +179,7 @@ MonoBehaviour:
       _dynamic: 0
   entry: 0
   exit: 0
-  speakerName: Cottage Resident
+  speakerName: Old Lady
   dialogueLine: Wrong! You die now.
   sprite: {fileID: 0}
 --- !u!114 &-108673116961057652
@@ -328,7 +328,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 1
   entry: 0
-  speakerName: Cottage Resident
+  speakerName: Old Lady
   dialogueLine: I fly without wings, I cry without eyes, Wherever I go, Darkness
     flies.
   sprite: {fileID: 0}
@@ -382,7 +382,7 @@ MonoBehaviour:
       _dynamic: 0
   entry: 0
   exit: 0
-  speakerName: Cottage Resident
+  speakerName: Old Lady
   dialogueLine: However... answer it incorrectly and you will be met with a terrible
     fate...
   sprite: {fileID: 0}
