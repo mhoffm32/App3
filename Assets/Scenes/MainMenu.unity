@@ -310,6 +310,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   level: Level_1
   leaderboard: Leaderboard
+  createPlayer: CreatePlayer
 --- !u!1 &417818285
 GameObject:
   m_ObjectHideFlags: 0

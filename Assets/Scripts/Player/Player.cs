@@ -15,19 +15,17 @@ public class Player : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        
         playerName = PlayerPrefs.GetString("PlayerName", "Default Player");
         playerNo = PlayerPrefs.GetInt("PlayerNo", 1);
-        
-        animator.SetBool("isPlayer1", true);
-        animator.SetBool("isPlayer2", false);
+        animator.SetBool("isPlayer1", playerNo == 1);
+        animator.SetBool("isPlayer2",playerNo == 2);
     }
 
     void Update()
     {
          if (!animator.GetBool("isDead"))
          {
-                MovePlayer();
+             MovePlayer();
          }
     }
     

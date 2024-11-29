@@ -35,13 +35,12 @@ public class WinMenu : MonoBehaviour
     {
         // uncomment once player name is implemented into GameData script
         //string playerName = GameData.playerName;
-        string playerName = "temp name";
-
+        
         // calculate score by simply rounding timer to 2 decimal places
         float score = (float)Math.Round(GameData.timer/60, 2);
 
         // submit to leaderboard
-        SubmitToLeaderboard(playerName, score);
+        SubmitToLeaderboard(GameData.PlayerName, score);
     }
 
     // method to take submitted score and name and put onto leaderboard
