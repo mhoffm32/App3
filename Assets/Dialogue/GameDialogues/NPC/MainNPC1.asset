@@ -45,10 +45,10 @@ MonoBehaviour:
       _dynamic: 0
   entry: 0
   exit: 0
-  speakerName: Mary
+  speakerName: Wizard
   dialogueLine: Goodbye, Traveller. Please return to me when you have found the item.
     Good luck!
-  sprite: {fileID: 0}
+  sprite: {fileID: 310205709, guid: f8708591df7074356a53e60060ae7b30, type: 3}
 --- !u!114 &-3114009709887093331
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -94,9 +94,9 @@ MonoBehaviour:
       _dynamic: 0
   entry: 0
   exit: 0
-  speakerName: Mary
-  dialogueLine: Hello Traveller! My name is Mary. Welcome to our humble village.
-  sprite: {fileID: 0}
+  speakerName: Wizard
+  dialogueLine: Hello traveller! I am a local wizard. Welcome to our humble village!
+  sprite: {fileID: 310205709, guid: f8708591df7074356a53e60060ae7b30, type: 3}
 --- !u!114 &-1800659904111599380
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -214,9 +214,9 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 1
   entry: 0
-  speakerName: Mary
+  speakerName: Wizard
   dialogueLine: Do you have any questions, my friend?
-  sprite: {fileID: 0}
+  sprite: {fileID: 310205709, guid: f8708591df7074356a53e60060ae7b30, type: 3}
   responses:
   - 'Where did you say the cottage is again? '
   - Tell me more about this town.
@@ -243,7 +243,7 @@ MonoBehaviour:
   - {fileID: 2401395744291447790}
   - {fileID: -3147026239911804641}
   - {fileID: 1099296534935218623}
-  current: {fileID: 0}
+  current: {fileID: 1099296534935218623}
 --- !u!114 &170726960845616991
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -289,11 +289,11 @@ MonoBehaviour:
       _dynamic: 0
   entry: 0
   exit: 0
-  speakerName: Mary
+  speakerName: Wizard
   dialogueLine: It is in the Eastern Forest. Travel west out of the village and head
     North. You will come to a clearing in the woods. Follow the sign to reach the
     Eastern Forest!
-  sprite: {fileID: 0}
+  sprite: {fileID: 310205709, guid: f8708591df7074356a53e60060ae7b30, type: 3}
 --- !u!114 &1099296534935218623
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -370,9 +370,9 @@ MonoBehaviour:
       _dynamic: 0
   entry: 0
   exit: 0
-  speakerName: Mary
+  speakerName: Wizard
   dialogueLine: Random lore about the town
-  sprite: {fileID: 0}
+  sprite: {fileID: 310205709, guid: f8708591df7074356a53e60060ae7b30, type: 3}
 --- !u!114 &5797614181251537188
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -418,10 +418,10 @@ MonoBehaviour:
       _dynamic: 0
   entry: 0
   exit: 0
-  speakerName: Mary
+  speakerName: Wizard
   dialogueLine: I would go myself, but I have injured my leg and cannot make it.
     Thank you for your help!
-  sprite: {fileID: 0}
+  sprite: {fileID: 310205709, guid: f8708591df7074356a53e60060ae7b30, type: 3}
 --- !u!114 &8577680300591086711
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -467,8 +467,8 @@ MonoBehaviour:
       _dynamic: 0
   entry: 0
   exit: 0
-  speakerName: Mary
+  speakerName: Wizard
   dialogueLine: I have a quest for you my friend. Can you please travel to the Eastern
     Forest for me? I need you to seek out the cottage deep in the woods and retrieve
     a special item!
-  sprite: {fileID: 0}
+  sprite: {fileID: 310205709, guid: f8708591df7074356a53e60060ae7b30, type: 3}

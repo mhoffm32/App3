@@ -1,11 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-using UnityEngine;
-
-using UnityEngine;
-
 public class Npc : MonoBehaviour
 {
     public Transform[] waypoints; // Assign in Inspector
