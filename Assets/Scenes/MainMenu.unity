@@ -609,8 +609,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000015259, y: 94.25}
-  m_SizeDelta: {x: 1163.7, y: 188.5}
+  m_AnchoredPosition: {x: 31.188, y: 132}
+  m_SizeDelta: {x: 1355.6248, y: 173.4471}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &968332188
 MonoBehaviour:
@@ -632,7 +632,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Game Name
+  m_text: Strawberry Shores
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6d276c42c7f5241d8963298c0c1507d1, type: 2}
   m_sharedMaterial: {fileID: 901745458841030927, guid: 6d276c42c7f5241d8963298c0c1507d1, type: 2}
