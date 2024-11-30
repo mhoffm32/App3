@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -9,17 +8,43 @@ public class MainMenu : MonoBehaviour
     public string leaderboard;
     public string createPlayer;
 
-    public void StartGame() {
-        //SceneManager.LoadScene(level);
-        SceneManager.LoadScene(createPlayer);
-    }
-    
+    public AudioSource audioSource;
+    public AudioClip clickSound;
 
-    public void Leaderboard() {
-        SceneManager.LoadScene(leaderboard);
+    private void PlaySound()
+    {
+        if (audioSource != null && clickSound != null)
+        {
+            audioSource.PlayOneShot(clickSound);
+        }
     }
 
-    public void QuitGame() {
+    public void StartGame()
+    {
+        StartCoroutine(PlaySoundAndSwitchScene(createPlayer));
+    }
+
+    public void Leaderboard()
+    {
+        StartCoroutine(PlaySoundAndSwitchScene(leaderboard));
+    }
+
+    public void QuitGame()
+    {
+        StartCoroutine(PlaySoundAndQuit());
+    }
+
+    private IEnumerator PlaySoundAndSwitchScene(string sceneName)
+    {
+        PlaySound();
+        yield return new WaitForSeconds(clickSound.length); 
+        SceneManager.LoadScene(sceneName);
+    }
+
+    private IEnumerator PlaySoundAndQuit()
+    {
+        PlaySound();
+        yield return new WaitForSeconds(clickSound.length);
         Application.Quit();
     }
 }
