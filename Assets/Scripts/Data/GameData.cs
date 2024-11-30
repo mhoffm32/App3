@@ -20,10 +20,16 @@ public class GameData
     public List<PlayerRecord> leaderboard = new List<PlayerRecord>();
 
     // add player record to leaderboard
-    public void AddPlayerRecord(string name, float time) {
+    public void AddPlayerRecord(string name, float time)
+    {
         leaderboard.Add(new PlayerRecord { playerName = name, beatTime = time });
+
+        // Sort leaderboard in descending order (highest scores first)
+        leaderboard.Sort((a, b) => b.beatTime.CompareTo(a.beatTime));
+
         SaveData();
     }
+
 
     // save data to file
     public void SaveData() {

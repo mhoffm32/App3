@@ -47,7 +47,7 @@ MonoBehaviour:
   exit: 0
   speakerName: Old Lady
   dialogueLine: You got it right! Here, take this.
-  sprite: {fileID: 0}
+  sprite: {fileID: 1261787169, guid: f8708591df7074356a53e60060ae7b30, type: 3}
 --- !u!114 &-3764360369065990452
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -127,7 +127,7 @@ MonoBehaviour:
   speakerName: Old Lady
   dialogueLine: Hello traveller, answer my riddle correctly and I will give you a
     special item!
-  sprite: {fileID: 0}
+  sprite: {fileID: 1261787169, guid: f8708591df7074356a53e60060ae7b30, type: 3}
 --- !u!114 &-692266805659902156
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -158,9 +158,6 @@ MonoBehaviour:
       - fieldName: responses 2
         node: {fileID: 4617140768860117794}
         reroutePoints: []
-      - fieldName: responses 3
-        node: {fileID: 4617140768860117794}
-        reroutePoints: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 0
@@ -181,7 +178,7 @@ MonoBehaviour:
   exit: 0
   speakerName: Old Lady
   dialogueLine: Wrong! You die now.
-  sprite: {fileID: 0}
+  sprite: {fileID: 1261787169, guid: f8708591df7074356a53e60060ae7b30, type: 3}
 --- !u!114 &-108673116961057652
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -256,7 +253,6 @@ MonoBehaviour:
     - responses 0
     - responses 1
     - responses 2
-    - responses 3
     values:
     - _fieldName: entry
       _node: {fileID: 4617140768860117794}
@@ -315,28 +311,15 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-    - _fieldName: responses 3
-      _node: {fileID: 4617140768860117794}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: -692266805659902156}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
   entry: 0
   speakerName: Old Lady
   dialogueLine: I fly without wings, I cry without eyes, Wherever I go, Darkness
     flies.
-  sprite: {fileID: 0}
+  sprite: {fileID: 1261787169, guid: f8708591df7074356a53e60060ae7b30, type: 3}
   responses:
   - The Moon
   - A Cloud
   - A Shadow
-  - The Wind
 --- !u!114 &4789361617130034617
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -385,7 +368,7 @@ MonoBehaviour:
   speakerName: Old Lady
   dialogueLine: However... answer it incorrectly and you will be met with a terrible
     fate...
-  sprite: {fileID: 0}
+  sprite: {fileID: 1261787169, guid: f8708591df7074356a53e60060ae7b30, type: 3}
 --- !u!114 &8123838856173402958
 MonoBehaviour:
   m_ObjectHideFlags: 0
