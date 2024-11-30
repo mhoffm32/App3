@@ -125,5 +125,5 @@ MonoBehaviour:
   entry: 0
   exit: 0
   speakerName: Village Sign
-  dialogueLine: Village Name
+  dialogueLine: Strawberry Shores
   sprite: {fileID: 1432664621, guid: cb9f9de86b89144b8ba7ba7dc47c89d2, type: 3}
