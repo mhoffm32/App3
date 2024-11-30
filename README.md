@@ -43,4 +43,16 @@ The town is in danger and needs your help!
 ## Controls
 - Use arrow keys to move up, down, left, and right
 - Use E to interact with items when the prompt appears
+
+## Assets and Tutorials Used
+- https://limezu.itch.io/serenevillagerevamped
+- https://shubibubi.itch.io/cozy-people
+- https://1144ghost.itch.io/cutycozy-music-pack-2
+- https://1144ghost.itch.io/cutecozy-music-pack
+- https://cyrex-studios.itch.io/universal-ui-soundpack
+- https://dinodeveloper.itch.io/cozy-cute-ui-pack
+- https://ngndang.itch.io/fat-pix-font
+- https://youtu.be/UId0mwanBZg?si=UoPfESwEqqrRIgil
+- https://youtu.be/7E1EqekXnwQ?si=RsuF2o2bbAEqw3Vr
+- ChatGPT
   
