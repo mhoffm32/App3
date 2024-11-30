@@ -25,7 +25,6 @@ public class Player : MonoBehaviour
     public GameObject northBoulder;
     public GameObject westBoulder;
     
-    
     public Shooter shooter;
     public GameObject melee;
     public Transform gunTransform;
@@ -51,7 +50,7 @@ public class Player : MonoBehaviour
              MovePlayer();
              AimGun();
          }
-
+         
          if (hasCottageItem == true) {
             Debug.Log("You have the cottage item!");
             cottageItem.SetActive(true);
@@ -149,19 +148,11 @@ public class Player : MonoBehaviour
     
     void OnTriggerEnter2D(Collider2D other)
     {
-        
-        if (other.CompareTag("Enemy")) 
-        {
-            if (!meleeController.isAttacking)
-            {
-                Die();
-            }
-        } else if (other.CompareTag("Arrow")) 
+        if (other.CompareTag("Enemy") && !meleeController.isAttacking) 
         {
             Die();
-        }
+        } 
     }
-    
     
     public void Die()
     {
@@ -178,8 +169,6 @@ public class Player : MonoBehaviour
                 childRenderer.enabled = false; // Make the child invisible
             }
         }
-        
         GameController.isGameOver = true;
     }
-
 }
