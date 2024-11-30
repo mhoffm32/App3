@@ -1,13 +1,18 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 // script to manage leaderboard
-
 public class Leaderboard : MonoBehaviour
 {
     public TMP_Text score1, score2, score3, player1, player2, player3;
     public string mainMenuScene;
+
+    // Sound-related fields
+    public AudioSource audioSource; // Assign this in the Inspector
+    public AudioClip clickSound;    // Assign this in the Inspector
+    public float delayDuration = 0.5f; // Time (in seconds) to wait before performing actions
 
     void Start()
     {
@@ -62,9 +67,20 @@ public class Leaderboard : MonoBehaviour
         }
     }
 
+    // Play the click sound
+    private void PlaySound()
+    {
+        if (audioSource != null && clickSound != null)
+        {
+            audioSource.PlayOneShot(clickSound);
+        }
+    }
+
     // to clear all data from leaderboard
     public void ClearAllData()
     {
+        PlaySound(); // Play the click sound
+
         // clear PlayerPrefs
         PlayerPrefs.DeleteAll();
         PlayerPrefs.Save();
@@ -81,13 +97,18 @@ public class Leaderboard : MonoBehaviour
         player3.text = "---";
         score3.text = "---";
 
-        Debug.Log("All data cleared.");
-    }
+        Debug.Log("All data cleared.");    }
 
     // to return to the main menu
     public void Back()
     {
-        SceneManager.LoadScene(mainMenuScene);
+        StartCoroutine(BackWithDelay());
+    }
+
+    private IEnumerator BackWithDelay()
+    {
+        PlaySound(); // Play the click sound
+        yield return new WaitForSeconds(delayDuration); // Wait for the delay
+        SceneManager.LoadScene(mainMenuScene); // Switch scene
     }
 }
-
