@@ -46,8 +46,7 @@ MonoBehaviour:
   entry: 0
   exit: 0
   speakerName: Wizard
-  dialogueLine: Goodbye, Traveller. Please return to me with the 5 loot when you
-    have defeated the monsters!
+  dialogueLine: Goodbye, traveller. Please return safely!
   sprite: {fileID: 310205709, guid: f8708591df7074356a53e60060ae7b30, type: 3}
 --- !u!114 &-3114009709887093331
 MonoBehaviour:
@@ -163,7 +162,7 @@ MonoBehaviour:
         node: {fileID: 170726960845616991}
         reroutePoints: []
       - fieldName: exit
-        node: {fileID: 2401395744291447790}
+        node: {fileID: 7655772966522555742}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
@@ -244,7 +243,8 @@ MonoBehaviour:
   - {fileID: 2401395744291447790}
   - {fileID: -3147026239911804641}
   - {fileID: 1099296534935218623}
-  current: {fileID: 0}
+  - {fileID: 7655772966522555742}
+  current: {fileID: 1099296534935218623}
 --- !u!114 &170726960845616991
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -363,7 +363,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: entry
-        node: {fileID: -642414314983530265}
+        node: {fileID: 7655772966522555742}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -372,7 +372,8 @@ MonoBehaviour:
   entry: 0
   exit: 0
   speakerName: Wizard
-  dialogueLine: Describe the enemies
+  dialogueLine: They are strange undead creatures. Nobody here knows where they have
+    come from all of the sudden.
   sprite: {fileID: 310205709, guid: f8708591df7074356a53e60060ae7b30, type: 3}
 --- !u!114 &5797614181251537188
 MonoBehaviour:
@@ -420,8 +421,55 @@ MonoBehaviour:
   entry: 0
   exit: 0
   speakerName: Wizard
-  dialogueLine: Please help us reduce their numbers and defeat 5 of these monsters!
-    Bring me back 5 loot as proof.
+  dialogueLine: Please help us reduce their numbers and defeat the current hoard!
+  sprite: {fileID: 310205709, guid: f8708591df7074356a53e60060ae7b30, type: 3}
+--- !u!114 &7655772966522555742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36fcc2ba4f0b84bb9991674c07fdda16, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 600, y: 264}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: 7655772966522555742}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: 2401395744291447790}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: 7655772966522555742}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: -642414314983530265}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 0
+  exit: 0
+  speakerName: Wizard
+  dialogueLine: Perhaps the town spirits are angry with us.
   sprite: {fileID: 310205709, guid: f8708591df7074356a53e60060ae7b30, type: 3}
 --- !u!114 &8577680300591086711
 MonoBehaviour:
