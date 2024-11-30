@@ -539,7 +539,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Congratulations! You beat [game name]. It took you this long:'
+  m_text: 'Congratulations! You saved Strawberry Shores. It took you this long:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6d276c42c7f5241d8963298c0c1507d1, type: 2}
   m_sharedMaterial: {fileID: 901745458841030927, guid: 6d276c42c7f5241d8963298c0c1507d1, type: 2}
@@ -742,7 +742,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You Beat The Game!
+  m_text: You Saved The Village!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6d276c42c7f5241d8963298c0c1507d1, type: 2}
   m_sharedMaterial: {fileID: 901745458841030927, guid: 6d276c42c7f5241d8963298c0c1507d1, type: 2}

@@ -1,5 +1,54 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7845976010575281913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36fcc2ba4f0b84bb9991674c07fdda16, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 600, y: 264}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: -7845976010575281913}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: 2401395744291447790}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: -7845976010575281913}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: -642414314983530265}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 0
+  exit: 0
+  speakerName: Wizard
+  dialogueLine: "The townsfolk began celebrating the Blush Bloom Harvest each year,
+    honoring the star\u2019s gift and the joy the berries bring."
+  sprite: {fileID: 310205709, guid: f8708591df7074356a53e60060ae7b30, type: 3}
 --- !u!114 &-3147026239911804641
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -162,7 +211,7 @@ MonoBehaviour:
         node: {fileID: 170726960845616991}
         reroutePoints: []
       - fieldName: exit
-        node: {fileID: 2401395744291447790}
+        node: {fileID: -7845976010575281913}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
@@ -243,7 +292,8 @@ MonoBehaviour:
   - {fileID: 2401395744291447790}
   - {fileID: -3147026239911804641}
   - {fileID: 1099296534935218623}
-  current: {fileID: 1099296534935218623}
+  - {fileID: -7845976010575281913}
+  current: {fileID: 2401395744291447790}
 --- !u!114 &170726960845616991
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -362,7 +412,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: entry
-        node: {fileID: -642414314983530265}
+        node: {fileID: -7845976010575281913}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -371,7 +421,8 @@ MonoBehaviour:
   entry: 0
   exit: 0
   speakerName: Wizard
-  dialogueLine: Random lore about the town
+  dialogueLine: Long ago, a star fell into the sea near Strawberry Shores, and from
+    that moment, the wild strawberries here flourished with a magical sweetness.
   sprite: {fileID: 310205709, guid: f8708591df7074356a53e60060ae7b30, type: 3}
 --- !u!114 &5797614181251537188
 MonoBehaviour:

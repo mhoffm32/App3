@@ -15,7 +15,8 @@ MonoBehaviour:
   nodes:
   - {fileID: 123300096517353638}
   - {fileID: 7017376251404603026}
-  current: {fileID: 0}
+  - {fileID: 7205160098334572875}
+  current: {fileID: 123300096517353638}
 --- !u!114 &123300096517353638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40,7 +41,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: entry
-        node: {fileID: 7017376251404603026}
+        node: {fileID: 7205160098334572875}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -60,7 +61,7 @@ MonoBehaviour:
   m_Name: Gain Item
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 120, y: -72}
+  position: {x: 264, y: -104}
   ports:
     keys:
     - entry
@@ -71,7 +72,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: exit
-        node: {fileID: 123300096517353638}
+        node: {fileID: 7205160098334572875}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
@@ -80,3 +81,51 @@ MonoBehaviour:
   speakerName: Special Item
   sprite: {fileID: 1073011172, guid: cb9f9de86b89144b8ba7ba7dc47c89d2, type: 3}
   entry: 0
+--- !u!114 &7205160098334572875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36fcc2ba4f0b84bb9991674c07fdda16, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 8, y: -120}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: 7205160098334572875}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: 123300096517353638}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: 7205160098334572875}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: 7017376251404603026}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 0
+  exit: 0
+  speakerName: Special Item
+  dialogueLine: What's this? You have found something...
+  sprite: {fileID: 1073011172, guid: cb9f9de86b89144b8ba7ba7dc47c89d2, type: 3}
