@@ -23,8 +23,6 @@ public class EnemyController : MonoBehaviour
         if (AreAllEnemiesDead())
         {
             player.allEnemiesKilled = true;
-            player.northQuestComplete = true;
-            // Add your logic for when all enemies are dead
         }
     }
 
